@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+
+.main-title {
+  font-size: 4em;
+  color: white;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 2.5em;
+  color: #04BF55;
+}
+
+#inicio {
+  background-color: #1F252C;
+  color: #F2C1B6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#sobre-nosotros {
+  background-color: #168A85;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.descrip {
+  font-size: 2em;
+  color: white;
+}
+
+.image-txt-container {
+  display: flex;
+  flex-direction: row;
+}
