@@ -58,7 +58,7 @@ h3 {
   height: 100vh;
   text-align:center;
   display: grid;
-  grid-gap: 30px 30px;
+  grid-gap: 10px 10px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
