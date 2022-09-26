@@ -121,6 +121,11 @@ h3 {
   height: 100vh;
 }
 
+#contact h4 {
+  padding-top:10px;
+  padding-bottom: 10px;
+}  
+
 input, textarea {
   width: 25%;
 }
