@@ -2,17 +2,21 @@
   margin: 0;
 }
 
-navbar {
+#header {
   background-color: #04BF55;
   width: 100%;
   height: 50px;
-  padding-left: 15px;
   position: fixed;
   top: 0;
   color: white;
-  align-items:center;
+  justify-content:center;
   display: flex;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+header img{
+  position: absolute;
+  left: 0;
 }
 
 navbar a {
@@ -23,6 +27,14 @@ navbar a {
 
 navbar a:active{
   color: white;
+}
+
+navbar a:hover{
+  color: #1F252C;
+}
+
+.links{
+  align-self: center;
 }
 
 .main-title {
@@ -265,4 +277,3 @@ footer a {
 footer a:active{
   color: white;
 }
-
