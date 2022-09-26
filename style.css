@@ -130,6 +130,10 @@ input, textarea {
   text-align:justify;
 }
 
+#nuestros_servicios{
+  height: 70vh;
+}
+
 .servicios {
   padding-bottom: 50px;
   padding-top: 100px;
