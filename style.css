@@ -26,8 +26,9 @@ navbar a {
   font-size: 1.em;
 }
 
-.links{
+.dropbtn,.links{
   align-self: center;
+  color: white;
 }
 
 .links a {
@@ -39,7 +40,7 @@ navbar a {
   color: white;
 }
 
-.dropbtn,.links a:hover{
+.dropbtn:hover,.links a:hover{
   color: #1F252C;
 }
 
