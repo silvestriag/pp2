@@ -175,6 +175,7 @@ input, textarea {
   grid-column: 1/2;
   background-color: #1F252C;
   height:100%;
+  padding-bottom: 0.8em;
 }
 
 .col-2 {
@@ -182,6 +183,7 @@ input, textarea {
   grid-column: 2/3;
   background-color: #1F252C;
   height:100%;
+  padding-bottom: 0.8em;
 }
 
 .col-3 {
@@ -189,6 +191,7 @@ input, textarea {
   grid-column: 1/2;
   background-color: #1F252C;
   height:100%;
+  padding-bottom: 0.8em;
 }
 
 .col-4 {
@@ -196,6 +199,7 @@ input, textarea {
   grid-column: 2/3;
   background-color: #1F252C;
   height:100%;
+  padding-bottom: 0.8em;
 }
 
 /* Slideshow container */
