@@ -2,7 +2,7 @@
   margin: 0;
 }
 
-#header {
+.header {
   background-color: #04BF55;
   width: 100%;
   height: 50px;
@@ -14,7 +14,7 @@
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
 }
 
-header img{
+.logo{
   position: absolute;
   left: 0;
 }
