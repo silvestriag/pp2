@@ -2,6 +2,7 @@
 <head>
   <title>Estudio Alta</title>
   <link href="style.css" rel="stylesheet" type="text/css"/>
+  <script src="slider.js"></script>
 </head>
 <body>
    <header class="header">
@@ -72,30 +73,36 @@
      </div>
   </section>
  <section id="clientes">
-	<script src="slider.js"></script>
-       <h3>Confían en nosotros</h3>
-       <br>
-	<!-- Slider container -->
-	<div class="slider">
-	  <!-- slide 1 -->
-	  <div class="slide">
-	    <img src="imagenes/cliente1.png" alt="" />
-	  </div>
+   <h3>Confían en nosotros</h3>
+   <br>
+     <!-- Slideshow container -->
+     <div class="slideshow-container fade">
 
-	  <!-- slide 2 -->
-	  <div class="slide">
-	    <img src="imagenes/cliente2.png" alt="" />
-	  </div>
+      <!-- Full images with numbers and message Info -->
+      <div class="Containers">
+        <img src="imagenes/cliente1.png" style="width:70%">
+      </div>
 
-	  <!-- slide 3 -->
-	  <div class="slide">
-	    <img src="imagenes/cliente3.png" alt="" />
-	  </div>
+      <div class="Containers">
+        <img src="imagenes/cliente2.png" style="width:70%">
+      </div>
 
-	  <!-- Control buttons -->
-	  <button class="btn btn-next"></button>
-	  <button class="btn btn-prev"></button>
-	</div>
+      <div class="Containers">
+        <img src="imagenes/cliente3.png" style="width:70%">
+      </div>
+
+      <!-- Back and forward buttons -->
+      <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The circles/dots -->
+    <div style="text-align:center">
+      <span class="dots" onclick="currentSlide(1)"></span>
+      <span class="dots" onclick="currentSlide(2)"></span>
+      <span class="dots" onclick="currentSlide(3)"></span>
+    </div> 
 </section>
 
   <section id="contact">
