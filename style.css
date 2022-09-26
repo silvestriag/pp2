@@ -71,7 +71,7 @@ h3 {
 }
 
 #sobre-nosotros {
-    background-color: #168A85;
+    background-color: #0F5E5A;
     padding-top: 100px;
     width: 100%;
     height: 70vh;
@@ -103,7 +103,7 @@ h3 {
 
 #clientes {
   padding-top: 100px;
-  background-color: #168A85;
+  background-color: #0F5E5A;
   width: 100%;
   height: 100vh;
   text-align:center;
@@ -115,7 +115,7 @@ h3 {
   justify-content: center;
   align-content: center;
   padding-bottom: 60px;
-  background-color: #1F252C;
+  background-color: #0F5E5A;
   color: white;
   text-align: center;
   height: 100vh;
@@ -142,7 +142,7 @@ input, textarea {
 .servicios {
   padding-bottom: 50px;
   padding-top: 100px;
-  background-color: #168A85;
+  background-color: #0F5E5A;
   width: 100%;
   display: grid;
   text-align: center;
