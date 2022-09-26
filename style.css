@@ -24,20 +24,21 @@ navbar a {
   font-size: 1.em;
 }
 
-navbar a:active{
-  color: white;
-}
-
-navbar a:hover{
-  color: #1F252C;
-}
-
 .links{
   align-self: center;
 }
 
 .links a {
   padding: 15px;
+}
+
+
+.links a:active{
+  color: white;
+}
+
+.links a:hover{
+  color: #1F252C;
 }
 
 .main-title {
