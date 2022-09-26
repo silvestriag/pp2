@@ -1,28 +1,49 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+"use strict";
+// Select all slides
+const slides = document.querySelectorAll(".slide");
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+// loop through slides and set each slides translateX
+slides.forEach((slide, indx) => {
+  slide.style.transform = `translateX(${indx * 100}%)`;
+});
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+// select next slide button
+const nextSlide = document.querySelector(".btn-next");
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+// current slide counter
+let curSlide = 0;
+// maximum number of slides
+let maxSlide = slides.length - 1;
+
+// add event listener and navigation functionality
+nextSlide.addEventListener("click", function () {
+  // check if current slide is the last and reset current slide
+  if (curSlide === maxSlide) {
+    curSlide = 0;
+  } else {
+    curSlide++;
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+
+  //   move slide by -100%
+  slides.forEach((slide, indx) => {
+    slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+  });
+});
+
+// select next slide button
+const prevSlide = document.querySelector(".btn-prev");
+
+// add event listener and navigation functionality
+prevSlide.addEventListener("click", function () {
+  // check if current slide is the first and reset current slide to last
+  if (curSlide === 0) {
+    curSlide = maxSlide;
+  } else {
+    curSlide--;
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
+
+  //   move slide by 100%
+  slides.forEach((slide, indx) => {
+    slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+  });
+});
