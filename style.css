@@ -221,6 +221,8 @@ input, textarea {
   background-color: #1F252C;
   height:100%;
   padding-bottom: 0.8em;
+  border: solid #1F252C;
+  border-radius: 10px;
 }
 
 .col-2 {
@@ -229,6 +231,8 @@ input, textarea {
   background-color: #1F252C;
   height:100%;
   padding-bottom: 0.8em;
+  border: solid #1F252C;
+  border-radius: 10px;
 }
 
 .col-3 {
@@ -237,6 +241,8 @@ input, textarea {
   background-color: #1F252C;
   height:100%;
   padding-bottom: 0.8em;
+  border: solid #1F252C;
+  border-radius: 10px;
 }
 
 .col-4 {
@@ -245,6 +251,8 @@ input, textarea {
   background-color: #1F252C;
   height:100%;
   padding-bottom: 0.8em;
+  border: solid #1F252C;
+  border-radius: 10px;
 }
 
 /* Slideshow container */
